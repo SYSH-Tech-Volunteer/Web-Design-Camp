@@ -2,23 +2,23 @@
 
 ## 大綱
 
-### 介紹網頁原理(25)
+### 介紹網頁原理(25) 50819
 
 HTTP/DOMAIN/TCP...
 
-### VS Code (5)
+### VS Code (5) 50801
 
 * 裝擴充
   
   * 中文
 
-### Markdown(20)
+### Markdown(20) 40838
 
 * 語法
 
 * Marp
 
-### 基本HTML(50)
+### 基本HTML(50) 40833 50806
 
 * Tag
   
@@ -30,7 +30,7 @@ HTTP/DOMAIN/TCP...
   
   * 其他
 
-### 基本CSS(50)
+### 基本CSS(50) 40838 50711
 
 * 選擇器
 
@@ -76,7 +76,7 @@ HTTP/DOMAIN/TCP...
 
 ## 午餐
 
-### Github / Git (30)
+### Github / Git (30) 50819
 
 * 註冊
 
@@ -90,7 +90,7 @@ HTTP/DOMAIN/TCP...
   
   * VSCode Git
 
-### CSS進階-排版(20+50)
+### CSS進階-排版(20+50) 40802
 
 * display
 
@@ -104,9 +104,9 @@ HTTP/DOMAIN/TCP...
 
 ## 第二天
 
-### 複習HTML/CSS (50)
+### 複習HTML/CSS (50) 50801 50711
 
-### JavaScript基本語法+操作DOM (50+50)
+### JavaScript基本語法+操作DOM (50+50) 40833 40838
 
 ### 後端Google App Script (50)
 
