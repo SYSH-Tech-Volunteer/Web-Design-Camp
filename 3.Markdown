@@ -51,6 +51,7 @@ CheckBox
 ---
  - [ ] uncheck
  - [x] check
+![bg right w:80% h:50%](img\css_check_box.png)
 
 ```md
  - [ ] uncheck
@@ -234,5 +235,3 @@ __斜粗2__
 | :-- | --: |:--:|
 | 置左  | 置右 | 置中 |
 ```
-
----
