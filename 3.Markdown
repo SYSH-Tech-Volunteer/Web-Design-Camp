@@ -235,3 +235,8 @@ __斜粗2__
 | :-- | --: |:--:|
 | 置左  | 置右 | 置中 |
 ```
+---
+# 參考資料
+- <https://markdown.tw/>
+- <https://hackmd.io/@eMP9zQQ0Qt6I8Uqp2Vqy6w/SyiOheL5N/%2FBVqowKshRH246Q7UDyodFA?type=book>
+- <https://www.casper.tw/development/2019/11/23/ten-mins-learn-markdown/>
