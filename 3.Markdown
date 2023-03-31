@@ -1,12 +1,19 @@
 ---
 marp: true
 theme: gaia
-class: lead
+_class: lead
 paginate: true
 backgroundColor: #fff
-backgroundImage: url('https://marp.app/assets/hero-background.svg')
+backgroundImage: url("img/hero-background.svg")
 ---
-
+<style>
+marp-pre{
+     border-radius: 13px;
+}
+code{
+    border-radius: 7px;
+}
+</style>
 # Markdown
 西苑高中網頁設計營隊
 講師:魏均翰
