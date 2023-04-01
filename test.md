@@ -1,17 +1,10 @@
----
-marp: true
-theme: gaia
-_class: lead
-paginate: true
-backgroundColor: #fff
-backgroundImage: url('https://marp.app/assets/hero-background.svg')
----
-* Hi
-* HI
-* Yo
-
----
-
-- Hi
-- Hi
-- Yo
+*斜體字*
+**粗體字**
+***斜粗體***
+~~刪除線~~
+_斜體2_
+__斜粗2__
+正常^上標^
+正常~下標~
+++底線++
+==螢光標記==
