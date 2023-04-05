@@ -5,16 +5,17 @@
 }
 
 body {
-    font-family: arial,sans-serif;
-    font-size: 13px;
-    font-weight: 500;
+    font-family: arial, sans-serif;
+    font-size: 14px;
 }
 
 #nav {
     height: 60px;
     display: flex;
     align-items: center;
-    padding: 0 15px;
+    padding: 0 16px;
+    color: #202124;
+    font-size: 14px
 }
 
 #nav>div {
@@ -23,6 +24,8 @@ body {
     align-items: center;
     display: flex;
     height: 100%;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 13px;
 }
 
 #nav a,
@@ -37,12 +40,14 @@ img {
     text-decoration: none;
 }
 
-#nav img {
+#nav img,
+#nav svg {
     height: 30px;
+    margin: 0 0 0 20px;
 }
 
 #nav .gb_Be {
-    height: 25px;
+    height: 24px;
 }
 
 #logo {
@@ -61,7 +66,7 @@ img {
 
 form {
     margin: 0 auto;
-    margin-top: 6px;
+    margin-bottom: 26px;
     width: auto;
     max-width: 584px;
     position: relative;
@@ -73,7 +78,7 @@ input[type="submit"] {
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     color: #3c4043;
-    font-family: arial,sans-serif;
+    font-family: arial, sans-serif;
     font-size: 14px;
     margin: 11px 4px;
     padding: 0 16px;
@@ -91,15 +96,78 @@ input[type="submit"]:hover {
     border: 1px solid #dadce0;
     color: #202124;
 }
-input[type="text"]{
-    display: flex;
-    z-index: 3;
-    height: 44px;
+
+#search {
+    height: 45.6px;
     background: #fff;
     border: 1px solid #dfe1e5;
     box-shadow: none;
     border-radius: 24px;
-    margin: 0 auto;
-    width: auto;
-    width: 584px;
+    width: 100%;
+    max-width: 584px;
+    margin: 26px 10px 18px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 18px;
+}
+
+#search * {
+    height: 22px;
+    display: block;
+}
+
+#search:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+input[type="text"] {
+    border: none;
+    width: calc(100% - 80px);
+    height: 45px;
+    background-color: transparent;
+    font-size: 16px;
+}
+input[type="text"]:focus {
+    outline: none;
+}
+
+.search {
+    opacity: 0.35;
+}
+
+footer {
+    background: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div {
+    padding: 15px 0;
+    font-size: 15px;
+    color: #70757a;
+}
+
+footer>div:first-child {
+    border-bottom: 1px solid #dadce0;
+    padding-left: 30px;
+}
+
+.link {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.link a {
+    color: #70757a;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.link a:hover {
+    text-decoration: underline;
 }
