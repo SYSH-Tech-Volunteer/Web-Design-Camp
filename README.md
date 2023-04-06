@@ -70,7 +70,7 @@ HTTP/DOMAIN/TCP...
 
 ## 第二天
 
-### 複習HTML/CSS (50) 50801 50711
+### 複習HTML/CSS (50) 50711
 
 ### JavaScript基本語法+操作DOM (50+50) 40833 40838
 
