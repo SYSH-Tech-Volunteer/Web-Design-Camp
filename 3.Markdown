@@ -19,16 +19,8 @@ code{
 講師:魏均翰
 
 ---
-
 # Markdown簡介
-
-Markdown是一種輕量級的標記語言，用來編寫即使是閱讀原始碼也易讀易寫的文件。
-
-你在閱讀的這份簡報就是用Markdown編寫的。
-
-在Discord文字兩邊加上`**`來讓訊息便就是Markdown。
-
-
+Markdown的目標：「易讀易寫」
 <!-- 是個純文字的語法(沒有元素)
 當然也可以在裡面寫HTML語法
 只是可能會有些問題而且和原本初衷不符 -->
@@ -45,7 +37,6 @@ Markdown是一種輕量級的標記語言，用來編寫即使是閱讀原始碼
 ```md
 標題
 ===
-
 副標
 ---
 ```
@@ -68,20 +59,17 @@ Markdown是一種輕量級的標記語言，用來編寫即使是閱讀原始碼
 ## 字體效果
 
 
+
 ```md
+
 *斜體字*
 **粗體字**
 ***斜粗體***
 ~~刪除線~~
 _斜體2_
 __斜粗2__
+
 ```
-
-*斜體字*
-**粗體字**
-***斜粗體***
-~~刪除線~~
-
 ---
 
 # 縮排 換行
@@ -101,18 +89,14 @@ __斜粗2__
 ---
 
 # 分隔線
-
-就是打出一條線。以下幾個方式效果一樣
-
-<hr>
-
-```md
+```
+1.
 ---
-
+2.
 ***
-
+3.
 - - -
-
+4.
 * * *
 ```
 ---
@@ -162,8 +146,8 @@ __斜粗2__
 ```
 ---
 
-# 巢狀標號
-
+巢狀標號
+---
 - 無序清單
     - 無序清單子清單
         - 無序清單子子清單
@@ -189,22 +173,50 @@ __斜粗2__
  - [ ] uncheck
  - [x] check
 ```
+---
+
+超連結
+---
+>[連結名稱](https://google.com "游標顯示")
+
+```
+[連結名稱](https://google.com "游標顯示")
+```
 
 ---
 
-# 超連結
-[連結名稱](https://google.com "游標顯示")
-
-```
-[連結名稱](https://google.com "游標顯示")
-```
-## 簡易超連結
-<https://google.com>
-<text@email.com>
+簡易超連結
+---
+><https://google.com>
+><text@email.com>
 
 ```
 <https://google.com>
 <text@email.com>
+```
+
+
+---
+
+
+# 標籤連結
+
+很少用
+[Google][1]
+[Yahoo][2]
+[MSN][3].
+
+  [1]: http://google.com/        "Google"
+  [2]: http://search.yahoo.com/  "Yahoo"
+  [3]: http://search.msn.com/    "MSN"
+```md
+[Google][1]
+[Yahoo][2]
+[MSN][3]
+
+  [1]: http://google.com/        "游標顯示"
+  [2]: http://search.yahoo.com/  "游標顯示"
+  [3]: http://search.msn.com/    "游標顯示"
 ```
 
 ---
@@ -214,11 +226,11 @@ __斜粗2__
 ![bg right](https://raw.githubusercontent.com/SYSH-Tech-Volunteer/.github/main/team.jpg)
 
 ```md
+
 ![圖片名稱](連結)
-```
-超連結可以放圖片當按鈕
-```md
+
 [![圖片名稱](圖片網址)](連結網址)
+/*可以把它當成在超連結裡的文字來理解*/
 
 ```
 
