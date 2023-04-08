@@ -192,30 +192,6 @@ __斜粗2__
 <text@email.com>
 ```
 
-
----
-
-
-# 標籤連結
-
-很少用
-[Google][1]
-[Yahoo][2]
-[MSN][3].
-
-  [1]: http://google.com/        "Google"
-  [2]: http://search.yahoo.com/  "Yahoo"
-  [3]: http://search.msn.com/    "MSN"
-```md
-[Google][1]
-[Yahoo][2]
-[MSN][3]
-
-  [1]: http://google.com/        "游標顯示"
-  [2]: http://search.yahoo.com/  "游標顯示"
-  [3]: http://search.msn.com/    "游標顯示"
-```
-
 ---
 
 圖片
