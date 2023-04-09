@@ -4,15 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML</twhiitle>
+    <title>linktree</title>
     <style>
-        div{
-            padding: ;
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            text-align: center;
+            background-color: rgb(95, 193, 217);
+        }
+        a{
+            text-decoration: none;
+            display: block;
+            background-color: rgb(178, 246, 171);
+            margin: 10px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            transition: .2;
+            
+        }
+        a:hover{
+            transform: scale(1.2);
+            opacity: 0.5;
+            box-shadow: 10px,10px,10px rgba(0,0,0,8);
+        }
+        #monkey{
+            background-image: url(https://media.newyorker.com/photos/59095bb86552fa0be682d9d0/master/w_1920,c_limit/Monkey-Selfie.jpg);
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-size: cover;
+            margin: auto;
         }
     </style>
 </head>
 <body>
-    <h1>google</h1>
-    <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, eligendi, nostrum temporibus est quas eaque ipsa dolorem modi debitis perspiciatis, similique facere. Numquam aperiam cum incidunt quas sapiente. Sit, consequatur.</div>
+    <div id="monkey"></div>
+    <h1>monkey</h1>
+    <a href="">連結1</a>
+    <a href="">連結2</a>
+    <a href="">連結3</a>
+    <a href="">連結4</a>
+    <a href="">連結5</a>
 </body>
 </html>
