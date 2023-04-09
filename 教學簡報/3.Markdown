@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: gaia
-_class: lead
+class: lead
 paginate: true
 backgroundColor: #fff
 backgroundImage: url("img/hero-background.svg")
@@ -14,124 +14,11 @@ code{
     border-radius: 7px;
 }
 </style>
-
-
-# **網頁設計營隊**
-西苑高中資訊志工
-
----
-<!-- _class: lead -->
-# 關於我
-毛宥鈞 (毛哥EM)
-獸控 | 數位創作者 | Web開發人員
-
-Musixmatch管理員
-
-![bg right:40% 50%](https://edit-mr.github.io/Logo.png)
-
----
-
-## 第一天 流程
-* 介紹網頁原理
-* VS Code
-* Markdown
-* 基本HTML
-* 基本CSS
-* Git/Github
-* 進階CSS
-
----
-
-## 第二天 流程
-
-* 複習HTML/CSS
-* JavaScript介紹
-* 後端Google App Script
-* 專案製作
-* Q&A 補充、發證書
-* 
----
-
-<!-- _class: lead -->
-# 網頁原理
-
----
-
-![bg contain 80%](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works/simple-client-server.png)
-
----
-
-1. 瀏覽器去 DNS (電話簿)查 IP 地址
-2. 瀏覽器向伺服器傳送 HTTP 請求網站資料
-   * 交通規則 - HTTPS、FTP
-   * 交通工具 - GET
-3. 伺服器回傳回應
-   * 狀態(如200 OK, 404 Not Found)
-      * [各種 HTTP 狀態碼介紹](https://http.cat/)
-   * 檔案(如HTML, CSS, JS, JPG, PNG)
-4. 瀏覽器把一小塊一小塊的東西(封包)，組合成完整的網站，並把它呈現起來
-
-<!-- 訪問網站猶如寄送包裹
-     包裹就是檔案
-     透過哪條路：網路
-     地址=ip位置，ip太醜改成有意義的名字=>Domain
-     交通規則：tcp底下的http(網頁常用)
-     交通工具：GET、POST   
- -->
----
-
-<!-- _class: lead -->
-# IP Adress & DNS
-
----
-
-1. IP
-* 當連上網路後，每台電腦在網路中的位置
-   * IPv4、IPv6
-      * Google: 172.217.160.110 / 2404:6800:4012:1::200e
-2. DNS
-* 把IP變成一串有意義的文字(~~一坨數字根本記不住~~
-   * 可以申請自己的網域
-
----
-
-<!-- _class: lead -->
-# HTTP Request & Response
-
----
-
-##### HTTP是一種通訊協定，主要用來傳輸網頁的資料
-* 分成兩種
-   * Request & Response，皆有Header跟Body兩部分
-      * Header放一些額外資訊，如: Host、User-Agent
-      * Body放主要內容:  HTML、CSS、JS
-      * 由瀏覽器解析，渲染成可讀的網頁
-* Request
-   * 向伺服器請求資料
-* Response
-   * 伺服器傳回資料
-
----
-
-# 安裝VS Code
-
----
-# 下載並安裝
-![width:1000](img/VSCode.png)
-
----
-
-# 登入
-登入你的Microsoft帳號，並且安裝你想要的擴充套件
-![width:700](img/login.png)
----
-<!-- _class: lead -->
 # Markdown
 西苑高中網頁設計營隊
 講師:魏均翰
 
 ---
-
 # Markdown簡介
 ## Markdown的目標：「易讀易寫」
 <!-- 是個純文字的語法
@@ -216,7 +103,7 @@ __斜粗2__
 >引言
 >>引言中的引言
 >>>引言中的引言中的引言
-![bg right h:80% w:100%](img\10個quote.png)
+![bg right h:80% w:100%](img/10個quote.png)
 
 <!-- 我們通常會把用來當便利貼 -->
 

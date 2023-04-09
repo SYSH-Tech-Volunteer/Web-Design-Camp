@@ -1,89 +1,18 @@
-# 網頁設計營隊
+# 2023西苑網頁設計營隊
 
-## 大綱
+西苑資訊志工主辦的網頁設計營隊，讓你在短短的兩天內，學會網頁設計的基礎知識，並且在營隊結束後，可以自己架設一個屬於自己的網站。
 
-1. 介紹網頁原理(25) 50819
-HTTP/DOMAIN/TCP...
-2. VS Code (5) 50801
-   * 裝擴充
- * 中文
-3. Markdown(20) 40838
-* 語法
-* Marp
+[Github 倉庫](https://github.com/SYSH-Tech-Volunteer/Web-Design-Camp) | [Discord社群](https://discord.gg/Awwasw45Gc)
 
-4. 基本HTML(50) 40833 50806
-* Tag
-  * 文字
-  * 表格
-  * 輸入
-  * div
-  * 其他
-5. 基本CSS(50) 40838 50711
-   * 選擇器
-   * 文字
-     * 顏色表示法
-   * HSL
-   * HEX
-   * 顏色名稱
-   * RBG/RBGA
-     * 單位
-   * px
-   * em
-   * rem
-   * %
-   * vh/vw
+## 營隊簡報
 
-* box
-  * 漸層
-  * Padding
-  * Grandient
+你可以在[release](https://github.com/SYSH-Tech-Volunteer/Web-Design-Camp/releases/tag/%E7%AC%AC%E4%B8%80%E5%A4%A9)下載PDF版本的簡報，或是在[這裡]()查看網頁版的簡報。
 
-* 背景
-  * 顏色
-  * 圖片
-* float
-
-## 午餐
-
-6. Github / Git (30) 50819
-
-* 註冊
-* 建立repo: 用戶名.github.io
-* 下載Git
-* 設定Git
-
-* 使用git上傳
-  
-  * VSCode Git
-
-7. CSS進階-排版(20+50) 40802
-
-* display
-
-* flex
-
-* Position
-  
-  * Transform: translate
-
-### 假設有時間-Animate.CSS
-
-## 第二天
-
-### 複習HTML/CSS (50) 50711
-
-### JavaScript基本語法+操作DOM (50+50) 40833 40838
-
-### 後端Google App Script (50)
-
-* doGet
-
-* doPost
-
-## Line Notify(30)
-
-## 網頁自由製作(QA)
-
-## 補充(看時間)
-
-* Firefox Developer
+* [1.基本原理](教學簡報/1.基本原理.md)
+* [2.VSCode](教學簡報/2.VSCode.md)
+* [3.Markdown](教學簡報/3.Markdown.md)
+* [4.基本HTML](教學簡報/4.基本HTML.md)
+* [5.基本CSS](教學簡報/5.基本CSS.md)
+* [6.Git](教學簡報/6.Git.md)
+* [7.進階CSS](教學簡報/7.進階CSS.md)
+* [8.JavaScript](8.JavaScript.md)
