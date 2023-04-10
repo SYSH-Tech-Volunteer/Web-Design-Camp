@@ -6,7 +6,7 @@
 
 ## 營隊簡報
 
-你可以在[release](https://github.com/SYSH-Tech-Volunteer/Web-Design-Camp/releases/tag/%E7%AC%AC%E4%B8%80%E5%A4%A9)下載PDF版本的簡報，或是在[這裡]()查看網頁版的簡報。
+你可以在[release](https://github.com/SYSH-Tech-Volunteer/Web-Design-Camp/releases/tag/%E7%AC%AC%E4%B8%80%E5%A4%A9)下載PDF版本的簡報。網頁版如下：
 
 * [1.基本原理](教學簡報/1.基本原理.md)
 * [2.VSCode](教學簡報/2.VSCode.md)
@@ -16,3 +16,7 @@
 * [6.Git](教學簡報/6.Git.md)
 * [7.進階CSS](教學簡報/7.進階CSS.md)
 * [8.JavaScript](8.JavaScript.md)
+
+## 課堂範例
+
+* [button.html](practice/button.html) [(原檔)]()

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link</title>
+    <link rel="stylesheet" href="link.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        body {
+            background-color: #9FC088;
+            font-family: 'Noto Sans TC', serif;
+        }
+
+        #avatar {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            background-image: url(https://cdn.britannica.com/07/183407-050-C35648B5/Chicken.jpg);
+            background-size: cover;
+            border-radius: 50%;
+            margin: 20px auto 10px auto;
+        }
+
+        a {
+            display: block;
+            width: 80%;
+            background-color: #E8C07D;
+            margin: 10px auto;
+            padding: 16px;
+            color: #614124;
+            text-decoration: none;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px #614124;
+            border: #CC704B solid 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: width .3s, font-size .3s;
+
+        }
+
+        a:active {
+            background-color: rgb(216, 170, 110);
+        }
+
+        a:hover {
+            width: 90%;
+            font-size: 2em;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="avatar"></div>
+    <h1>Chicken</h1>
+    <!-- a*5{連結$} -->
+    <a href="">連結1</a>
+    <a href="">連結2</a>
+    <a href="">連結3</a>
+    <a href="">連結4</a>
+    <a href="">連結5</a>
+</body>
+
+</html>
