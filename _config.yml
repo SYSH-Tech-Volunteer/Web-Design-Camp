@@ -1,0 +1,7 @@
+remote_theme: pages-themes/leap-day@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+title: "2023西苑網頁設計營隊"
+description: "西苑資訊志工主辦的網頁設計營隊，讓你在短短的兩天內，學會網頁設計的基礎知識，並且在營隊結束後，可以自己架設一個屬於自己的網站。"
+show_downloads: false
+google_analytics: G-E4J7XGJSJF
